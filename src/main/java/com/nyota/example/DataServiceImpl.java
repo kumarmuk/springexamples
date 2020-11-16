@@ -1,5 +1,9 @@
 package com.nyota.example;
 
+import org.springframework.stereotype.Component;
+
+
+@Component
 public class DataServiceImpl implements DataService {
 
     @Override
