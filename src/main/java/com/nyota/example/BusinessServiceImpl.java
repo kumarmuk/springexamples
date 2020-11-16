@@ -10,8 +10,8 @@ public class BusinessServiceImpl implements BusinessService {
     DataService ds;
 
     @Override
-    public void getAddition(int a, int b) {
-        System.out.println (ds.calculateSum(a, b));
+    public long getAddition(int a, int b) {
+        return (ds.calculateSum(a, b));
 
     }
     
